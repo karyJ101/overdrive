@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/************* New Nav Bar **************/
+.navbar header{
+    display: flex;
+    background: linear-gradient(to right, #12C4A6, #10ACC1);
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    padding: 1rem;
+}
+
+.navbar ul{
+    display: flex; 
+}
+
+.navbar li{
+    display: flex;
+    margin: 0rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar li a, .navbar li a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: #22f3d0;
+}
+
+.navbar h1{
+    display: flex;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: normal; 
+    color: white;
+    /* background: white; */
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    flex: 1 1 2rem;
+}
+/************** Containers AND ALIGNMENT ************/
+
+.parent-menu-container{
+    align-self: flex-end; 
+}
+
+.parent-menu-container, .menu-container, 
+.parent-content-container,
+.filter-button-container,
+.input-error-box,
+.error-container2{
+
+    display: flex;
+}
+
+.parent-content-container, 
+.filter-button-container,
+.error-container2{
+
+    justify-content: center;
+}
+.parent-content-container{
+    margin-top: 80px;
+}
+
+.parent-menu-container{
+    background-image: linear-gradient(to right, #12C4A6, #10ACC1);
+    width: 100%;
+}
+
+.filter-box, .form-binder{
+     border: 2px solid gainsboro;
+}
+.filter-box, .logo-container{
+    float:left;
+}
+.car-box, .menu-container{
+    float: right;
+}
+
+.car-box{
+    width: 100%;
+}
+
+.form-container, .filter-box{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.filter-box{
+    margin-right: 10px;
+    width: 400px;
+    height: 265px;
+
+}
+
+.form-binder{
+   width: 600px;
+}
+
+.form-binder h2{
+    font-family: 'Poppins', sans-serif;
+}
+.filter-box, .form-binder{   
+    text-align: center;
+/*    height: 300px;*/
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.filter-button-container{
+/*    background-color: lightblue;*/
+    align-items: center;
+}
+
+
+.form-container{
+/*   background-color: salmon;*/
+    
+}
+.logo-container, .menu-container{
+    color: white;  
+    font-weight: lighter;
+    font-stretch: ultra-condensed;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+.logo-container{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 42px;
+    justify-content: flex-start;
+    font-weight: normal;
+}
+
+/* .logo-container a, 
+.logo-container a:hover, .logo-container a:visited{
+    text-decoration: none;
+    color: white;
+} */
+.menu-container{
+    justify-content: center;
+    justify-content: flex-end;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    align-items: center;
+    width: 100%;
+}
+
+#menu-0,#menu-1, #menu-2, #menu-3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.error-container{
+    text-align: left; 
+    width: 150px;
+}
+
+.error-container2,.error-container{
+    color: red; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.error-container2{
+    width: 100%;
+}
+.input-error-box{
+    align-items: center;
+    float: right;
+}
+
+/**********Account Containers***************/
+
+
+/************ Vehicle Containers **************/
+
+.center-car-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-box{
+   display: inline-block;
+   width: 100%;
+   float: left;
+   margin-bottom: 50px;
+/*   background-color: lightblue;*/
+}
+.full-vehicle-view{
+    width: 900px;
+    height: 800px;
+    background-color: salmon;
+    margin: 20px;
+}
+
+.vehicle-descr{
+    width:800px;
+/*    background-color: plum;*/
+    text-align: left;
+}
+.preview-image, .info-box{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+}
+.preview-binder, .image-container{
+/*    background-color: gainsboro;*/
+    display: inline-block;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.preview-image{    
+    height: 300px;
+}
+
+.info-box{
+    background-color: white;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+/*********** FONT/INPUT MANIPULATION ************/
+
+.underline, .full-view-heading{
+    color: graytext;
+}
+.underline{
+    width: 400px;
+    float: left;
+    margin-bottom: 10px;    
+}
+
+.text-custom{
+    font-family: helvetica, sans-serif;
+    font-size: 30px; 
+    font-weight: lighter;
+}
+
+.full-view-heading, h2{
+    font-family: Arial, serif;
+}
+.full-view-heading{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+h2{    
+    color: #12C4A6;
+}
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+.info-link{
+    text-decoration: none;
+    color: graytext;
+}
+.info-link:visited{
+    text-decoration: none;
+}
+
+.info-link:hover{
+    color: #12C4A6;
+}
+a:hover{
+    color: #034f84;
+}
+
+a:visited{
+   text-decoration: none;
+}
+
+
+

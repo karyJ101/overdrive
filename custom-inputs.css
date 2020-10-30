@@ -1,0 +1,109 @@
+
+/*********** Custom INPUT FIELDS ************/
+input{
+    background: none;
+    border: 0px;    
+}
+
+.custom-input{
+    margin-left: 10px;
+}
+
+#image-input{
+    font-size: 15px;
+}
+.custom-input{   
+    margin-bottom: 20px;
+    border-radius: 0px;
+    background: white;
+    border: 2px solid #ededed;
+    padding-top: 20px; 
+    padding-bottom: 5px;
+    width: 280px;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.custom-input:hover{
+    border: 2px solid #12C4A6;
+}
+
+#desc-box{
+    text-align: center;
+    height: 150px;
+}
+
+/******** CUSTOM SUBMITS/BUTTONS **********/
+
+#submit-font, .custom-submit, #sell-submit, #update-submit{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-submit,#sell-submit,#update-submit{
+    background-color: #12C4A6;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+    width: 285px;
+}
+
+#sell-submit,  #update-submit{
+/*    font-weight: bold;*/
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#submit-font{
+    font-weight: bolder;
+    font-size: 22px;
+    
+}
+.custom-submit:hover, #filter-submit:hover, 
+#clear-submit:hover, #sell-submit:hover, 
+#update-submit:hover{
+    background-color:  #11B9B2;
+    color: white;
+}
+
+button:hover{
+    color: white;
+}
+
+
+
+#filter-submit, #clear-submit, #filter-separater{
+/*    padding: 10px;*/
+    
+}
+
+#filter-submit, #clear-submit{
+    border: 2px solid gainsboro;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    /* color: graytext; */
+    margin-bottom: 10px;
+}
+
+#filter-submit{
+/*    background-color:  #11B9B2;*/
+    float: right;
+    
+}
+
+#clear-submit{
+/*    background-color: plum;*/
+    float: left;
+    
+}
+
+#filter-separater{
+    width: 70px;
+}
+
+#update-submit{
+    margin-left: -5px;
+}

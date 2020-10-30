@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #12C4A6, #10ACC1);
+}
+
+.parent-content-container p{
+    margin-top: rem;
+}
+
+
+/********************* CONTAINERS *******************/
+
+.parent-container, .login-container, .alignment-container{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container{    
+    width: 100vh;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    font-stretch: ultra-condensed;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    /* margin-bottom: 5rem; */
+    
+}
+
+.logo-container a h1{
+    font-family: 'Pattaya', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.logo-container a:visited, 
+.logo-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.parent-container{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container, .center-container2{
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;   
+    text-align: center;
+    width: 40rem;
+    
+}
+
+.center-container{
+    margin-bottom: 10rem;
+}
+
+.center-container2{
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+    
+}
+
+.form-container{
+    display: flex; 
+    width: 300px;
+    height: 80%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+}
+
+.input-container, .submit-container{
+    display: flex;
+    align-items: center;
+   
+}
+
+.input-container{
+     width: 100%;
+}
+.submit-container{
+    justify-content: center;
+/*    background-color: salmon;*/
+    width: 290px;
+    padding-left: 9px;
+}
+
+#submit-anchor{
+/*    width:52px;*/
+}
+
+.error-container{
+    color: red;  
+}
+
+.alignment-container p{
+    color: red;  
+}
+
+/******** Footer ******/
+
+#footer-container {
+    min-height: 4rem;
+    margin-top: 10rem;
+}
+
+#footer-container2{
+   
+}
+
+#footer-container, #footer-container2{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+/************ FONT/INPUT MANIPULATION **************/
+
+.heading{
+    color: #12C4A6;
+    /* margin-bottom: 0.5rem; */
+    font-size: 30px;
+    padding-top:1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.link-custom, .link-custom a:hover{
+    /* color: gray;    */
+    color: #12C4A6;
+}
+
+.link-custom a{
+    text-decoration: none;
+    color: grey;
+}
+
+.link-custom a:visited{
+    text-decoration: gray;
+}
+
+.link-custom{
+    margin: 20px;
+    margin-bottom: 0rem;
+}
+/* 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #12C4A6;
+} */
+
